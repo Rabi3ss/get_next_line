@@ -19,13 +19,13 @@ The goal is to learn about static variables, file descriptors, `read()`, and dyn
 Mandatory:
 
 ```bash
-cc -Wall -Wextra -Werror get_next_line.c get_next_line_utils.c main.c -o gnl
+cc -Wall -Wextra -Werror get_next_line.c get_next_line_utils.c main.c
 ```
 
 Bonus:
 
 ```bash
-cc -Wall -Wextra -Werror get_next_line_bonus.c get_next_line_utils_bonus.c main.c -o gnl_bonus
+cc -Wall -Wextra -Werror get_next_line_bonus.c get_next_line_utils_bonus.c main.c 
 ```
 
 Use -D BUFFER_SIZE=number to change buffer size .
