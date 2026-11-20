@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*    get_next_line_utils.c                             :+:      :+:    :+:   */
+/*   get_next_line_utils.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: relyaman <relyaman@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/17 14:17:12 by relyaman          #+#    #+#             */
-/*   Updated: 2026/11/18 15:55:25 by relyaman         ###   ########.fr       */
+/*   Updated: 2026/11/19 21:32:52 by relyaman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -78,7 +78,7 @@ char	*ft_strjoin(char *s1, const char *s2)
 	str = malloc(ft_strlen(s1) + ft_strlen(s2) + 1);
 	if (!str)
 	{
-		free(s1);// memory leaks
+		free(s1);
 		return (NULL);
 	}
 	strjoin_copy(str, s1, s2);
