@@ -6,10 +6,9 @@
 /*   By: relyaman <relyaman@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/19 20:36:14 by relyaman          #+#    #+#             */
-/*   Updated: 2026/11/19 21:05:25 by relyaman         ###   ########.fr       */
+/*   Updated: 2026/11/20 20:59:59 by relyaman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 #ifndef GET_NEXT_LINE_BONUS_H
 # define GET_NEXT_LINE_BONUS_H
@@ -21,9 +20,9 @@
 #  define BUFFER_SIZE 42
 # endif
 
-#ifndef FD
-# define FD 10240
-#endif
+# ifndef FD
+#  define FD 1024
+# endif
 
 char	*get_next_line(int fd);
 size_t	ft_strlen(const char *s);

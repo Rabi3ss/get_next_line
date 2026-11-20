@@ -6,7 +6,7 @@
 /*   By: relyaman <relyaman@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/15 11:15:01 by relyaman          #+#    #+#             */
-/*   Updated: 2026/11/19 16:11:07 by relyaman         ###   ########.fr       */
+/*   Updated: 2026/11/20 20:57:22 by relyaman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -97,7 +97,7 @@ char	*get_next_line(int fd)
 {
 	static char	*st;
 	char		*line;
-	
+
 	if (fd < 0 || BUFFER_SIZE <= 0)
 		return (NULL);
 	st = read_and_next(fd, st);

@@ -6,10 +6,9 @@
 /*   By: relyaman <relyaman@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/15 11:19:58 by relyaman          #+#    #+#             */
-/*   Updated: 2026/11/19 10:45:02 by relyaman         ###   ########.fr       */
+/*   Updated: 2026/11/20 20:57:44 by relyaman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 #ifndef GET_NEXT_LINE_H
 # define GET_NEXT_LINE_H

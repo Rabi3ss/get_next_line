@@ -6,10 +6,9 @@
 /*   By: relyaman <relyaman@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/19 20:36:05 by relyaman          #+#    #+#             */
-/*   Updated: 2026/11/20 08:46:27 by relyaman         ###   ########.fr       */
+/*   Updated: 2026/11/20 20:58:28 by relyaman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 #include "get_next_line_bonus.h"
 
@@ -98,7 +97,7 @@ char	*get_next_line(int fd)
 {
 	static char	*st[FD];
 	char		*line;
-	
+
 	if (fd < 0 || BUFFER_SIZE <= 0 || FD <= fd)
 		return (NULL);
 	st[fd] = read_and_next(fd, st[fd]);
